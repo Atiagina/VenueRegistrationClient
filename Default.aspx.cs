@@ -25,7 +25,7 @@ public partial class _Default : System.Web.UI.Page
         if (key != -1)
         {
            // ErrorLabel.Text = "Welcome!";
-           // Session["userKey"] = key;
+            Session["userKey"] = key;
             Response.Redirect("~/AddShow.aspx");
         }
         else
