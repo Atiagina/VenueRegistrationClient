@@ -18,9 +18,9 @@ public partial class VenueRegistration : System.Web.UI.Page
 
     protected void SubmitVenue()
     {
-        VenueServiceReference.VenueRegistrationServiceClient vrc = new VenueServiceReference.VenueRegistrationServiceClient();
+        VenueRegistrationServiceReference.VenueRegistrationServiceClient vrc = new VenueRegistrationServiceReference.VenueRegistrationServiceClient();
 
-        VenueServiceReference.VenueLite vlite = new VenueServiceReference.VenueLite();
+        VenueRegistrationServiceReference.VenueLite vlite = new VenueRegistrationServiceReference.VenueLite();
 
         vlite.Name = NameTextBox.Text;
         vlite.Address = AddressTextBox.Text;

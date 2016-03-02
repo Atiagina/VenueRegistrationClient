@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="23616b32-5dde-48db-b019-777e0f6a960f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2162/SelectShowsService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SelectShowsService.xsd" MetadataType="Schema" ID="27f105fe-1ef1-4634-a3e6-62094593dde8" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SelectShowsService1.xsd" MetadataType="Schema" ID="90a2793a-52d7-4675-a0d8-2aa006c21209" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SelectShowsService2.xsd" MetadataType="Schema" ID="dcdbd1fc-8aa8-47b7-924d-b9ec0db67cc6" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SelectShowsService3.xsd" MetadataType="Schema" ID="61135911-b5f5-47ff-8355-53e21bcf2d5c" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SelectShowsService.disco" MetadataType="Disco" ID="f69b6552-ef0f-4f79-8897-8c4f72db5286" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?disco" />
+    <MetadataFile FileName="SelectShowsService.wsdl" MetadataType="Wsdl" ID="53b798c2-5467-4956-a86a-4dfeda8a396c" SourceId="1" SourceUrl="http://localhost:2162/SelectShowsService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

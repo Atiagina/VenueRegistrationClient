@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="44c9daad-4337-4a3d-9401-8633d70bdb6b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1260/VenueRegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VenueRegistrationService.xsd" MetadataType="Schema" ID="cfda9785-1641-449a-8e3e-b2a6399f2cc6" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="VenueRegistrationService.disco" MetadataType="Disco" ID="ac4d47ad-95bf-4845-8cfb-fc03e2e23cad" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?disco" />
+    <MetadataFile FileName="VenueRegistrationService.wsdl" MetadataType="Wsdl" ID="664c07ff-fb47-42e4-ab6d-57a17ab55742" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?wsdl" />
+    <MetadataFile FileName="VenueRegistrationService1.xsd" MetadataType="Schema" ID="dba303a3-f660-4f43-ba04-432024468e94" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="VenueRegistrationService2.xsd" MetadataType="Schema" ID="c4b8439e-3d51-4b6c-9112-ea8d9bdb4999" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="VenueRegistrationService3.xsd" MetadataType="Schema" ID="1847cede-0853-491c-9299-ecb3c9661767" SourceId="1" SourceUrl="http://localhost:1260/VenueRegistrationService.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

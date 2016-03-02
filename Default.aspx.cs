@@ -18,7 +18,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void VenueLogin()
     {
-        VenueServiceReference.VenueRegistrationServiceClient vrc = new VenueServiceReference.VenueRegistrationServiceClient();
+        VenueRegistrationServiceReference.VenueRegistrationServiceClient vrc = new VenueRegistrationServiceReference.VenueRegistrationServiceClient();
 
         int key = vrc.VenueLogin(UserNameTextBox.Text, PasswordTextBox.Text);
 
