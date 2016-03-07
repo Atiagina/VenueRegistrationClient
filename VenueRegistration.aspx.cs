@@ -18,6 +18,7 @@ public partial class VenueRegistration : System.Web.UI.Page
 
     protected void SubmitVenue()
     {
+       
         VenueRegistrationServiceReference.VenueRegistrationServiceClient vrc = new VenueRegistrationServiceReference.VenueRegistrationServiceClient();
 
         VenueRegistrationServiceReference.VenueLite vlite = new VenueRegistrationServiceReference.VenueLite();
@@ -33,6 +34,7 @@ public partial class VenueRegistration : System.Web.UI.Page
         vlite.AgeRestriction = Int32.Parse(AgeTextBox.Text);
         vlite.UserName = UserNameTextBox.Text;
         vlite.PasswordPlain = ConfirmTextBox.Text;
+
 
         int result = vrc.VenueRegistration(vlite);
 
