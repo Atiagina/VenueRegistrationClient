@@ -38,6 +38,7 @@
         </tr>
     </table>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/VenueRegistration.aspx">Register</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/FanLogin.aspx">Not a Venue? Login as a Fan</asp:HyperLink>
     </div>
   
     </form>

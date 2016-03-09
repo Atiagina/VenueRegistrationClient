@@ -81,29 +81,27 @@ public partial class AddShowDetails : System.Web.UI.Page
         int vKey = (int)Session["userKey"];
         VenueRegistrationServiceReference.ShowDetailsLite sdln = new VenueRegistrationServiceReference.ShowDetailsLite();
 
-        
-        
         string showName = ShowsDropDownList.SelectedItem.Text;
 
-        
-
-        string[] artistName = new string[1];
+        string artistName = null;
         if (ArtistDropDownList.SelectedItem.Text == "New Artist")
         {
-            artistName[0] = ArtistNameTextBox.Text;
+            artistName = ArtistNameTextBox.Text;
         }
         else
         {
-            artistName[0] = ArtistDropDownList.SelectedItem.Text;
+            artistName = ArtistDropDownList.SelectedItem.Text;
         }
 
         sdln.ShowName = showName;
-        sdln.ArtistNames = artistName;
+        sdln.ArtistName = artistName;
         sdln.ShowDetailArtistStartTime = TimeSpan.Parse(ArtistTimeTextBox.Text.ToString());
         sdln.ShowDetailAdditional = DetailsTextBox.Text;
 
 
         vrsc.AddShowDetails(sdln);
+
+        ShowDetailLabel.Text = "The show has been saved";
 
         PopulateArtistNameList();
     }

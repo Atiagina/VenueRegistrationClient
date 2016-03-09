@@ -44,7 +44,9 @@
                 <td>
                     <asp:Button ID="SaveShowDetailsButton" runat="server" Text="Save Show Details" OnClick="SaveShowDetailsButton_Click"/>
                 </td>
-
+                <td>
+                    <asp:Label ID="ShowDetailLabel" runat="server" Text=""></asp:Label>
+                </td>
             </tr>
                 </table>
     </div>
