@@ -34,4 +34,26 @@ public partial class _Default : System.Web.UI.Page
         }
 
     }
+    protected void FanLoginButton_Click(object sender, EventArgs e)
+    {
+        FanLogin();
+    }
+
+    protected void FanLogin()
+    {
+        FanLoginRegistrationServiceReference.FanLoginRegistrationServiceClient flrsc = new FanLoginRegistrationServiceReference.FanLoginRegistrationServiceClient();
+
+        int key2 = flrsc.FanLogin(FanUserNameTextBox.Text, FanPasswordTextBox.Text);
+
+        if (key2 != -1)
+        {
+            //FanErrorLabel.Text = "You Are Welcome!";
+            Session["userKey"] = key2;
+            Response.Redirect("~/ListAll.aspx"); 
+        }
+        else
+        {
+            FanErrorLabel.Text = "Login Failed";
+        }
+    }
 }
