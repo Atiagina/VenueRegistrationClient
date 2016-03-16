@@ -1,0 +1,55 @@
+﻿body {
+    max-width: 700px;
+    
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgba(166, 90, 94, 0.5);
+    font-weight: bold;
+    font-size: 300%;
+}
+
+form {
+    border: white 1px;
+    border-radius: 5px;
+    background:  rgba(166, 90, 94, 0.5);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+
+    color: white;
+
+}
+
+td{
+    padding-left: 10px;
+}
+
+input[type="submit"] {
+    background: white;
+    border: coral 1px solid;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: coral;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+    border: coral 1px solid;
+
+}
+
+#ShowDateCalendar {
+    border: coral 1px solid;
+    padding: 5px;
+    background: white;
+}
+
+

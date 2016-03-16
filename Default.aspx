@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link href="FinalStyleSheet.css" rel="stylesheet" />
     <title>Welcome to ShowTracker!</title>
 </head>
 <body>

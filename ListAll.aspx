@@ -5,11 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Shows and artists</title>
+    <link href="FinalStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
+    <h1>Shows and Artists</h1>
     <form id="form1" runat="server">
     <div>
-        <h1>Shows and Artists</h1>
+        
+        <h4><asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AddArtists.aspx">Click to add Artists to follow.</asp:HyperLink></h4>
+        
     <table>
         <tr>
 <td><h3>List of all Shows</h3></td>

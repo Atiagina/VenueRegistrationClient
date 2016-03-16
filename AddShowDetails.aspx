@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Add Show Details</title>
+    <link href="FinalStyleSheet.css" rel="stylesheet" />
 </head>
 <body>
       <h1>Add Show Details</h1>
